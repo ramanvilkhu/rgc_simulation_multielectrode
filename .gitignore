@@ -1,0 +1,11 @@
+# ignore all data files stored in the data directory 
+data/
+src/data/
+
+# ignore jupyter notebook and python cached checkpoints 
+src/.ipynb_checkpoints
+src/__pycache__
+
+# ignore nrn/x86_64 folder, this needs to be compiled locally via running 
+# nrnivmodl command within nrn directory
+nrn/x86_64
